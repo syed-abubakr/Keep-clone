@@ -4,9 +4,8 @@
     <title>Keep</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
   </head>
-  <body>
+  <body >
     <img src="keep.jpg" height="50px" alt="logo" />
     <hr />
     <br />
@@ -14,12 +13,14 @@
       <form>
         <input
           type="textarea"
-          id="note1"
+          id="textBoxInput"
           placeholder="Take a note..."
           style="font-size: 15pt; border-radius: 5px; border-color: grey"
         />
-        <button type="button" id="pin1" onClick="pinNote()">pin note</button>
+        <button type="button" class="pinButton" id="pin1" onClick="pinNote()">pin note</button>
       </form>
     </center>
+    <script src="script.js"></script>
+    
   </body>
 </html>
