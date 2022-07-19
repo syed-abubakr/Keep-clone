@@ -9,17 +9,16 @@
     <img src="keep.jpg" height="50px" alt="logo" />
     <hr />
     <br />
-    <center>
-      <form>
+        <form class="inputform">
         <input
           type="textarea"
           id="textBoxInput"
           placeholder="Take a note..."
-          style="font-size: 15pt; border-radius: 5px; border-color: grey"
+          class="noteBox"  
+          autocomplete="off"
         />
-        <button type="button" class="pinButton" id="pin1" onClick="pinNote()">pin note</button>
+        <button type="button" class="pinButton" id="pin1" onClick="pinNote()">Add Note</button>
       </form>
-    </center>
     <script src="script.js"></script>
   </body>
 </html>
